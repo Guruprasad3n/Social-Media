@@ -1,0 +1,25 @@
+.ProfileCard{
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+}
+.profileImage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileImage>img:nth-child(1){
+    width: 100%;
+    /* height: 65px; */
+}
+.profileImage>img:nth-child(2){
+    width: 6rem;
+    border-radius: 50%;
+    bottom: -3rem;
+    position: absolute;
+    /* box-shadow: ; */
+}
